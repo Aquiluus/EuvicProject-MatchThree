@@ -1,0 +1,9 @@
+Bin/
+Library/
+obj/
+*.csproj
+*.unitypackage
+*.sln
+*.suo
+*.userprefs
+*.txt

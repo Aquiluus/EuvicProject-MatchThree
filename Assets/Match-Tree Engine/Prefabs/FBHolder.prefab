@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &186822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 479968}
+  - 114: {fileID: 11433910}
+  m_Layer: 0
+  m_Name: FBHolder
+  m_TagString: FBHolder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &479968
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186822}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 606.534119, y: 309.945587, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11433910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8867f68133b9c7549ac2ad3a8f47a668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FBIsLoggedIn: {fileID: 0}
+  FBIsNotLoggedIn: {fileID: 0}
+  FacebookButton: {fileID: 0}
+  ShareScoreCounter: {fileID: 0}
+  ShareLevelCounter: {fileID: 0}
+  NoInternetConnectionScreen: {fileID: 0}
+  InternetConnectionScreen: {fileID: 0}
+  InviteView: {fileID: 0}
+  GiftView: {fileID: 0}
+  GiftSelectionPopUp: {fileID: 0}
+  GiftReceivedPopUp: {fileID: 11400520, guid: 074c1835f99d20c4388aa368384b9d9c, type: 2}
+  giftHolder: {fileID: 0}
+  giftConfirmationPopUp: {fileID: 0}
+  giftAcknowledgmentPopUp: {fileID: 0}
+  loadingScreen: {fileID: 0}
+  stateSprites:
+  - {fileID: 21300000, guid: 11c8c9358a8c6594bbb15b3b2f51012e, type: 3}
+  - {fileID: 21300000, guid: 6f312e51263b52d4b9cc036deaf98e38, type: 3}
+  - {fileID: 21300000, guid: 260f6562c6368c24cbd076dcef7c4549, type: 3}
+  tglStateSlctAll: 0
+  btnInvite: {fileID: 0}
+  btnSlctAll: {fileID: 0}
+  listInviteContainer: {fileID: 0}
+  listLeaderboardContainer: {fileID: 0}
+  itemInvitePref: {fileID: 11400006, guid: d2f4530dad096804382a8adc65d47f77, type: 2}
+  itemLeaderPref: {fileID: 11400012, guid: bfaab25e23358244fbcf0c565d991c72, type: 2}
+  leaderboardView: {fileID: 0}
+  notLoggedInPopUp: {fileID: 0}
+  levelNumberText: {fileID: 0}
+  levelCounterTextWinPopup: {fileID: 0}
+  levelCounterTextSelectLevel: {fileID: 0}
+  listGiftContainer: {fileID: 0}
+  itemGiftPref: {fileID: 11453502, guid: 3326eefda78b0754f887539baf16b219, type: 2}
+  invMessage: Hey! Join me on this Epic Berry Adventure!
+  invTitle: Berry Adventure Invite
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 186822}
+  m_IsPrefabParent: 1
